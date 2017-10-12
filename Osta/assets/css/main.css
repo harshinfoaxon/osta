@@ -641,39 +641,39 @@ footer {
     margin-left: 48px;
 }
 
-.marchant #section3,
-.individual-page.marchant .navbar-default.osta_blue {
+.merchant #section3,
+.individual-page.merchant .navbar-default.osta_blue {
     background: #adeaca;
 }
 
-.marchant #section3 {
+.merchant #section3 {
     position: relative;
 }
 
-.marchant #section3 .individual-section.write-me {
+.merchant #section3 .individual-section.write-me {
     background: transparent;
 }
 
-.marchant #section3 footer {
+.merchant #section3 footer {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
 }
 
-.marchant #section1 {
+.merchant #section1 {
     background: rgba(0, 0, 0, 0) url("../images/slider-background-merchant.png") no-repeat scroll 0 0 / 100% 100%;
 }
 
-.marchant .individual-section.slidersection {
+.merchant .individual-section.slidersection {
     background: transparent;
 }
 
-.marchant.individual-page footer {
+.merchant.individual-page footer {
     background: #a9e0c3;
 }
 
-.marchant.individual-page .how-it-work {
+.merchant.individual-page .how-it-work {
     background: #FFF;
 }
 
@@ -885,6 +885,9 @@ h1.about-hello {
 .search-section h1 {
     padding: 30px;
 }
+.search-section h1 span{
+    display: block;
+}
 
 .search-section form {
     margin: 30px;
@@ -919,24 +922,24 @@ h1.about-hello {
     display: inline-block;
 }
 
-.search-list .content {
+.search-list .search-content {
     width: calc( 100% - 185px);
     float: left;
     border-left: 1px solid #f2f2f2;
 }
 
-.search-list .content ul {
+.search-list .search-content ul {
     margin: 0;
     padding: 0 0 0 30px;
 }
 
-.search-list .content ul li {
+.search-list .search-content ul li {
     list-style: none;
     font-size: 16px;
     padding-bottom: 13px;
 }
 
-.search-list .content ul li a {
+.search-list .search-content ul li a {
     color: #484848;
 }
 
